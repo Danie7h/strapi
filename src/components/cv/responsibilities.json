@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_cv_responsibilities",
+  "info": {
+    "displayName": "responsibilities"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    }
+  }
+}

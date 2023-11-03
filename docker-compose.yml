@@ -1,0 +1,23 @@
+version: "3"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/api
+    ports:
+      - $PORT:$PORT
+    env_file:
+      - .env
+    networks:
+      genoa_network:
+        aliases:
+          - strapi
+
+networks:
+  genoa_network:
+    name: genoa_net
+    driver: bridge
+    ipam:
+      driver: default

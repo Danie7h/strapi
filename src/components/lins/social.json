@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_lins_socials",
+  "info": {
+    "displayName": "social",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "github": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "gitlab": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    }
+  }
+}

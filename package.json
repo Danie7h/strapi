@@ -1,0 +1,43 @@
+{
+  "name": "cms Daniel Andrés",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Manager cotent",
+  "license": "MIT",
+  "author": {
+    "name": "Daniel.Andres.dev@gmail.com"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "prepare": "husky install",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.15.0",
+    "@strapi/plugin-users-permissions": "4.15.0",
+    "@strapi/strapi": "4.15.0",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "strapi-provider-firebase-storage": "^1.0.4",
+    "styled-components": "5.3.3"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.10",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "6c8031c0-22c2-41e2-b3e7-4a4ba9b8c7ad"
+  }
+}
